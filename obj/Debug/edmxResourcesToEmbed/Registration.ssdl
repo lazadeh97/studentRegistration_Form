@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Registration.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="RegistrationStoreContainer">
+    <EntitySet Name="Students" EntityType="Registration.Store.Students" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Education" EntityType="Registration.Store.Education" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PrivateOfStudent" EntityType="Registration.Store.PrivateOfStudent" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Pictures" EntityType="Registration.Store.Pictures" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="UserNamePassword" EntityType="Registration.Store.UserNamePassword" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="PunismentPresents" EntityType="Registration.Store.PunismentPresents" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="ExclusionRestoration" EntityType="Registration.Store.ExclusionRestoration" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Transkript" EntityType="Registration.Store.Transkript" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="BookNo" EntityType="Registration.Store.BookNo" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="Teachers" EntityType="Registration.Store.Teachers" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="StudentsEducation" Association="Registration.Store.StudentsEducation">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="Education" EntitySet="Education" />
+    </AssociationSet>
+    <AssociationSet Name="StudentsPrivateOfStudent" Association="Registration.Store.StudentsPrivateOfStudent">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="PrivateOfStudent" EntitySet="PrivateOfStudent" />
+    </AssociationSet>
+    <AssociationSet Name="StudentsPictures" Association="Registration.Store.StudentsPictures">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="Pictures" EntitySet="Pictures" />
+    </AssociationSet>
+    <AssociationSet Name="StudentsTranskript" Association="Registration.Store.StudentsTranskript">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="Transkript" EntitySet="Transkript" />
+    </AssociationSet>
+    <AssociationSet Name="StudentsExclusionRestoration" Association="Registration.Store.StudentsExclusionRestoration">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="ExclusionRestoration" EntitySet="ExclusionRestoration" />
+    </AssociationSet>
+    <AssociationSet Name="StudentsPunismentPresents" Association="Registration.Store.StudentsPunismentPresents">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="PunismentPresents" EntitySet="PunismentPresents" />
+    </AssociationSet>
+    <AssociationSet Name="StudentsBookNo" Association="Registration.Store.StudentsBookNo">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="BookNo" EntitySet="BookNo" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Students">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Soyad" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Ad" Type="nvarchar" Nullable="true" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Education">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Tehsili" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Fakulte" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Ixtisas" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="QebulTarixi" Type="datetime" Nullable="false" />
+    <Property Name="Bal" Type="nvarchar" Nullable="true" MaxLength="4" />
+    <Property Name="QrupNo" Type="nvarchar" Nullable="true" MaxLength="6" />
+    <Property Name="QebulEmri" Type="nvarchar" Nullable="false" MaxLength="150" />
+    <Property Name="BitirmeTarixi" Type="datetime" Nullable="false" />
+    <Property Name="ArayisEmri" Type="nvarchar" Nullable="false" MaxLength="150" />
+    <Property Name="TehsilPillesi" Type="nvarchar" Nullable="false" MaxLength="3" />
+    <Property Name="Student_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="PrivateOfStudent">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AtaAdi" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="DogumTarixi" Type="datetime" Nullable="true" />
+    <Property Name="YasayisYeri" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="ElaqeTelefonu" Type="nvarchar" Nullable="true" MaxLength="20" />
+    <Property Name="Email" Type="nvarchar" Nullable="true" MaxLength="50" />
+    <Property Name="Cinsi" Type="nvarchar" Nullable="true" MaxLength="3" />
+    <Property Name="Milliyeti" Type="nvarchar" Nullable="false" MaxLength="30" />
+    <Property Name="Valideynler" Type="nvarchar" Nullable="false" MaxLength="150" />
+    <Property Name="IsYeri" Type="nvarchar" Nullable="false" MaxLength="60" />
+    <Property Name="Student_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Pictures">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Sekil" Type="varbinary(max)" Nullable="false" />
+    <Property Name="Student_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="UserNamePassword">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="nvarchar" Nullable="false" MaxLength="250" />
+    <Property Name="Password" Type="nvarchar" Nullable="false" MaxLength="250" />
+  </EntityType>
+  <EntityType Name="PunismentPresents">
+    <Key>
+      <PropertyRef Name="MukafatCezaID" />
+    </Key>
+    <Property Name="MukafatCezaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="MukafatCeza" Type="nvarchar" Nullable="false" MaxLength="3" />
+    <Property Name="Sebebi" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Tarixi" Type="datetime" Nullable="false" />
+    <Property Name="Student_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="ExclusionRestoration">
+    <Key>
+      <PropertyRef Name="XaricBerpaID" />
+    </Key>
+    <Property Name="XaricBerpaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="XaricetmeBerpaetme" Type="nvarchar" Nullable="false" MaxLength="3" />
+    <Property Name="Sebeb" Type="nvarchar" Nullable="false" MaxLength="200" />
+    <Property Name="Tarix" Type="datetime" Nullable="false" />
+    <Property Name="Emr" Type="nvarchar" Nullable="false" MaxLength="100" />
+    <Property Name="Student_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Transkript">
+    <Key>
+      <PropertyRef Name="TranskriptID" />
+    </Key>
+    <Property Name="TranskriptID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Fenn" Type="nvarchar" Nullable="false" MaxLength="70" />
+    <Property Name="Semestr" Type="nvarchar" Nullable="false" MaxLength="3" />
+    <Property Name="Kredit" Type="nvarchar" Nullable="false" MaxLength="10" />
+    <Property Name="Qiymet" Type="nvarchar" Nullable="false" MaxLength="2" />
+    <Property Name="Bal" Type="int" Nullable="false" />
+    <Property Name="Student_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="BookNo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IsNomresi" Type="nvarchar" Nullable="false" MaxLength="15" />
+    <Property Name="Student_ID" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Teachers">
+    <Key>
+      <PropertyRef Name="TeacherID" />
+    </Key>
+    <Property Name="TeacherID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Username" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <Association Name="StudentsEducation">
+    <End Role="Students" Type="Registration.Store.Students" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Education" Type="Registration.Store.Education" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Education">
+        <PropertyRef Name="Student_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="StudentsPrivateOfStudent">
+    <End Role="Students" Type="Registration.Store.Students" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="PrivateOfStudent" Type="Registration.Store.PrivateOfStudent" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PrivateOfStudent">
+        <PropertyRef Name="Student_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="StudentsPictures">
+    <End Role="Students" Type="Registration.Store.Students" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Pictures" Type="Registration.Store.Pictures" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Pictures">
+        <PropertyRef Name="Student_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="StudentsTranskript">
+    <End Role="Students" Type="Registration.Store.Students" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Transkript" Type="Registration.Store.Transkript" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Transkript">
+        <PropertyRef Name="Student_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="StudentsExclusionRestoration">
+    <End Role="Students" Type="Registration.Store.Students" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="ExclusionRestoration" Type="Registration.Store.ExclusionRestoration" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ExclusionRestoration">
+        <PropertyRef Name="Student_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="StudentsPunismentPresents">
+    <End Role="Students" Type="Registration.Store.Students" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="PunismentPresents" Type="Registration.Store.PunismentPresents" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="PunismentPresents">
+        <PropertyRef Name="Student_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="StudentsBookNo">
+    <End Role="Students" Type="Registration.Store.Students" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="BookNo" Type="Registration.Store.BookNo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Students">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="BookNo">
+        <PropertyRef Name="Student_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

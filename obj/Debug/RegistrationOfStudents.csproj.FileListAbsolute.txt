@@ -1,0 +1,291 @@
+C:\Users\User\Desktop\Programming\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe.config
+C:\Users\User\Desktop\Programming\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe
+C:\Users\User\Desktop\Programming\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.pdb
+C:\Users\User\Desktop\Programming\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Programming\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Form1.resources
+C:\Users\User\Desktop\Programming\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Properties.Resources.resources
+C:\Users\User\Desktop\Programming\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Programming\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Programming\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.exe
+C:\Users\User\Desktop\Programming\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.pdb
+E:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe.config
+E:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe
+E:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.pdb
+E:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csprojAssemblyReference.cache
+E:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.MainForm.resources
+E:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Properties.Resources.resources
+E:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.GenerateResource.cache
+E:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.CoreCompileInputs.cache
+E:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.exe
+E:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.pdb
+F:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe.config
+F:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe
+F:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.pdb
+F:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.MainForm.resources
+F:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Properties.Resources.resources
+F:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.GenerateResource.cache
+F:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.CoreCompileInputs.cache
+F:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.exe
+F:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.pdb
+F:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\EntityFramework.dll
+F:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\EntityFramework.SqlServer.dll
+F:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\EntityFramework.xml
+F:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\EntityFramework.SqlServer.xml
+F:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.CopyComplete
+F:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.BasicForm.resources
+E:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\EntityFramework.dll
+E:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\EntityFramework.SqlServer.dll
+E:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\EntityFramework.xml
+E:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\EntityFramework.SqlServer.xml
+E:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.BasicForm.resources
+E:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.CopyComplete
+F:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Entrance.resources
+F:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csprojAssemblyReference.cache
+F:\RegistrationOfStudents\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.SupplementalEduInfor.resources
+C:\Users\User\Desktop\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe.config
+C:\Users\User\Desktop\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe
+C:\Users\User\Desktop\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.pdb
+C:\Users\User\Desktop\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csprojAssemblyReference.cache
+C:\Users\User\Desktop\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.BasicForm.resources
+C:\Users\User\Desktop\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Entrance.resources
+C:\Users\User\Desktop\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.MainForm.resources
+C:\Users\User\Desktop\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Properties.Resources.resources
+C:\Users\User\Desktop\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.SupplementalEduInfor.resources
+C:\Users\User\Desktop\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.GenerateResource.cache
+C:\Users\User\Desktop\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.CopyComplete
+C:\Users\User\Desktop\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.exe
+C:\Users\User\Desktop\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.pdb
+C:\Users\User\Desktop\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.LoginForm.resources
+C:\Users\User\Desktop\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.GetDataForStudents.resources
+C:\Users\User\Desktop\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.ConnectDBChangedAppConfig.resources
+C:\Users\User\Desktop\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.RegistrationStudents.resources
+C:\Users\User\Desktop\RegistrationOfStudents - Copy\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe.config
+C:\Users\User\Desktop\RegistrationOfStudents - Copy\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe
+C:\Users\User\Desktop\RegistrationOfStudents - Copy\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.pdb
+C:\Users\User\Desktop\RegistrationOfStudents - Copy\RegistrationOfStudents\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\RegistrationOfStudents - Copy\RegistrationOfStudents\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\RegistrationOfStudents - Copy\RegistrationOfStudents\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\RegistrationOfStudents - Copy\RegistrationOfStudents\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csprojAssemblyReference.cache
+C:\Users\User\Desktop\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.ConnectDBChangedAppConfig.resources
+C:\Users\User\Desktop\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.BasicForm.resources
+C:\Users\User\Desktop\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Entrance.resources
+C:\Users\User\Desktop\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.LoginForm.resources
+C:\Users\User\Desktop\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.MainForm.resources
+C:\Users\User\Desktop\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.GetDataForStudents.resources
+C:\Users\User\Desktop\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Properties.Resources.resources
+C:\Users\User\Desktop\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.SupplementalEduInfor.resources
+C:\Users\User\Desktop\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.RegistrationStudents.resources
+C:\Users\User\Desktop\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.GenerateResource.cache
+C:\Users\User\Desktop\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.CopyComplete
+C:\Users\User\Desktop\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.exe
+C:\Users\User\Desktop\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.pdb
+F:\RegistrationOfStudents - Copy\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe.config
+F:\RegistrationOfStudents - Copy\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe
+F:\RegistrationOfStudents - Copy\RegistrationOfStudents\bin\Debug\EntityFramework.dll
+F:\RegistrationOfStudents - Copy\RegistrationOfStudents\bin\Debug\EntityFramework.SqlServer.dll
+F:\RegistrationOfStudents - Copy\RegistrationOfStudents\bin\Debug\EntityFramework.xml
+F:\RegistrationOfStudents - Copy\RegistrationOfStudents\bin\Debug\EntityFramework.SqlServer.xml
+F:\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.ConnectDBChangedAppConfig.resources
+F:\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.BasicForm.resources
+F:\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Entrance.resources
+F:\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.LoginForm.resources
+F:\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.MainForm.resources
+F:\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.GetDataForStudents.resources
+F:\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Properties.Resources.resources
+F:\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.SupplementalEduInfor.resources
+F:\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.RegistrationStudents.resources
+F:\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.GenerateResource.Cache
+F:\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.exe
+F:\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.pdb
+F:\RegistrationOfStudents - Copy\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.pdb
+F:\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csprojAssemblyReference.cache
+F:\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.CoreCompileInputs.cache
+F:\RegistrationOfStudents - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.CopyComplete
+F:\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe.config
+F:\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe
+F:\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.pdb
+F:\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\EntityFramework.dll
+F:\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\EntityFramework.SqlServer.dll
+F:\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\EntityFramework.xml
+F:\RegistrationOfStudents\RegistrationOfStudents\bin\Debug\EntityFramework.SqlServer.xml
+F:\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csprojAssemblyReference.cache
+F:\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.ConnectDBChangedAppConfig.resources
+F:\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.BasicForm.resources
+F:\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Entrance.resources
+F:\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.LoginForm.resources
+F:\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.MainForm.resources
+F:\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.GetDataForStudents.resources
+F:\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Properties.Resources.resources
+F:\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.SupplementalEduInfor.resources
+F:\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.RegistrationStudents.resources
+F:\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.GenerateResource.cache
+F:\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.CoreCompileInputs.cache
+F:\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.CopyComplete
+F:\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.exe
+F:\RegistrationOfStudents\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.pdb
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe.config
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.pdb
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.ConnectDBChangedAppConfig.resources
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.BasicForm.resources
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Entrance.resources
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.LoginForm.resources
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.MainForm.resources
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.GetDataForStudents.resources
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Properties.Resources.resources
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.SupplementalEduInfor.resources
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.RegistrationStudents.resources
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.CopyComplete
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.exe
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.pdb
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Helper.resources
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.DbHelperForm.resources
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.EntranceHelper.resources
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.RegistrationHelper.resources
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.SearchFormHelper.resources
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.TranskriptForm.resources
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.PunishmentPresents.resources
+C:\Users\User\Desktop\Registration\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.ExclusionRestorations.resources
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe.config
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.pdb
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.ExclusionRestorations.resources
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.EntranceHelper.resources
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.DbHelperForm.resources
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.ConnectDBChangedAppConfig.resources
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.BasicForm.resources
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Entrance.resources
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.LoginForm.resources
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.MainForm.resources
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.GetDataForStudents.resources
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Helper.resources
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Properties.Resources.resources
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.SupplementalEduInfor.resources
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.RegistrationStudents.resources
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.RegistrationHelper.resources
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.SearchFormHelper.resources
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.PunishmentPresents.resources
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.TranskriptForm.resources
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.CopyComplete
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.exe
+C:\Users\User\Desktop\Registration - Copy (2)\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.pdb
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe.config
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.pdb
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.ExclusionRestorations.resources
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.EntranceHelper.resources
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.DbHelperForm.resources
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.ConnectDBChangedAppConfig.resources
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.BasicForm.resources
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Entrance.resources
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.LoginForm.resources
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.MainForm.resources
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.GetDataForStudents.resources
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Helper.resources
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Properties.Resources.resources
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.SupplementalEduInfor.resources
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.RegistrationStudents.resources
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.RegistrationHelper.resources
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.SearchFormHelper.resources
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.PunishmentPresents.resources
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.TranskriptForm.resources
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.CopyComplete
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.exe
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.pdb
+C:\Users\User\Desktop\Registration - Copy (2) - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.ResolveComReference.cache
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe.config
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.pdb
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.ResolveComReference.cache
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.ExclusionRestorations.resources
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.EntranceHelper.resources
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.DbHelperForm.resources
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.ConnectDBChangedAppConfig.resources
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.BasicForm.resources
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Entrance.resources
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.LoginForm.resources
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.MainForm.resources
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.GetDataForStudents.resources
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Helper.resources
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Properties.Resources.resources
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.SupplementalEduInfor.resources
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.RegistrationStudents.resources
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.RegistrationHelper.resources
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.SearchFormHelper.resources
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.PunishmentPresents.resources
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.TranskriptForm.resources
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.CopyComplete
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.exe
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.pdb
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.PunishPresentsAndExcRestorationHelper.resources
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.ExportToWordFile.resources
+C:\Users\User\Desktop\Buraxilis isi - Copy\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.TranskriptHelper.resources
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe.config
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.exe
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\bin\Debug\RegistrationOfStudents.pdb
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.ResolveComReference.cache
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.ExportToWordFile.resources
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.ExclusionRestorations.resources
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.EntranceHelper.resources
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.DbHelperForm.resources
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.ConnectDBChangedAppConfig.resources
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.BasicForm.resources
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Entrance.resources
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.LoginForm.resources
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.MainForm.resources
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.GetDataForStudents.resources
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Helper.resources
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.Properties.Resources.resources
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.SupplementalEduInfor.resources
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.RegistrationStudents.resources
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.RegistrationHelper.resources
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.SearchFormHelper.resources
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.PunishmentPresents.resources
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.TranskriptForm.resources
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.PunishPresentsAndExcRestorationHelper.resources
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.TranskriptHelper.resources
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.csproj.CopyComplete
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.exe
+C:\Users\User\Desktop\Buraxilis isi\RegistrationOfStudents\obj\Debug\RegistrationOfStudents.pdb

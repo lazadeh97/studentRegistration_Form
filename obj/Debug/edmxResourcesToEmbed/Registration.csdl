@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Registration" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="RegistrationContainer1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Students" EntityType="Registration.Students" />
+    <EntitySet Name="Education" EntityType="Registration.Education" />
+    <EntitySet Name="PrivateOfStudent" EntityType="Registration.PrivateOfStudent" />
+    <AssociationSet Name="StudentsEducation" Association="Registration.StudentsEducation">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="Education" EntitySet="Education" />
+    </AssociationSet>
+    <AssociationSet Name="StudentsPrivateOfStudent" Association="Registration.StudentsPrivateOfStudent">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="PrivateOfStudent" EntitySet="PrivateOfStudent" />
+    </AssociationSet>
+    <EntitySet Name="Pictures" EntityType="Registration.Pictures" />
+    <AssociationSet Name="StudentsPictures" Association="Registration.StudentsPictures">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="Pictures" EntitySet="Pictures" />
+    </AssociationSet>
+    <EntitySet Name="UserNamePassword" EntityType="Registration.UserNamePassword" />
+    <EntitySet Name="PunismentPresents" EntityType="Registration.PunismentPresents" />
+    <EntitySet Name="ExclusionRestoration" EntityType="Registration.ExclusionRestoration" />
+    <EntitySet Name="Transkript" EntityType="Registration.Transkript" />
+    <EntitySet Name="BookNo" EntityType="Registration.BookNo" />
+    <AssociationSet Name="StudentsTranskript" Association="Registration.StudentsTranskript">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="Transkript" EntitySet="Transkript" />
+    </AssociationSet>
+    <AssociationSet Name="StudentsExclusionRestoration" Association="Registration.StudentsExclusionRestoration">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="ExclusionRestoration" EntitySet="ExclusionRestoration" />
+    </AssociationSet>
+    <AssociationSet Name="StudentsPunismentPresents" Association="Registration.StudentsPunismentPresents">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="PunismentPresents" EntitySet="PunismentPresents" />
+    </AssociationSet>
+    <AssociationSet Name="StudentsBookNo" Association="Registration.StudentsBookNo">
+      <End Role="Students" EntitySet="Students" />
+      <End Role="BookNo" EntitySet="BookNo" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(Registration.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(Registration.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+    <EntitySet Name="Teachers" EntityType="Registration.Teachers" />
+  </EntityContainer>
+  <EntityType Name="Students">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Soyad" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Ad" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Education" Relationship="Registration.StudentsEducation" FromRole="Students" ToRole="Education" />
+    <NavigationProperty Name="PrivateOfStudent" Relationship="Registration.StudentsPrivateOfStudent" FromRole="Students" ToRole="PrivateOfStudent" />
+    <NavigationProperty Name="Picture" Relationship="Registration.StudentsPictures" FromRole="Students" ToRole="Pictures" />
+    <NavigationProperty Name="Transkript" Relationship="Registration.StudentsTranskript" FromRole="Students" ToRole="Transkript" />
+    <NavigationProperty Name="ExclusionRestoration" Relationship="Registration.StudentsExclusionRestoration" FromRole="Students" ToRole="ExclusionRestoration" />
+    <NavigationProperty Name="PunismentPresent" Relationship="Registration.StudentsPunismentPresents" FromRole="Students" ToRole="PunismentPresents" />
+    <NavigationProperty Name="BookNo" Relationship="Registration.StudentsBookNo" FromRole="Students" ToRole="BookNo" />
+  </EntityType>
+  <EntityType Name="Education">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Tehsili" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Fakulte" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Ixtisas" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="QebulTarixi" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Bal" Type="String" MaxLength="4" Unicode="true" FixedLength="false" />
+    <Property Name="QrupNo" Type="String" MaxLength="6" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Student" Relationship="Registration.StudentsEducation" FromRole="Education" ToRole="Students" />
+    <Property Name="QebulEmri" Type="String" Nullable="false" Unicode="true" MaxLength="150" FixedLength="false" />
+    <Property Name="BitirmeTarixi" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="ArayisEmri" Type="String" Nullable="false" Unicode="true" MaxLength="150" FixedLength="false" />
+    <Property Name="TehsilPillesi" Type="String" Nullable="false" Unicode="true" MaxLength="3" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PrivateOfStudent">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AtaAdi" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="DogumTarixi" Type="DateTime" Precision="3" />
+    <Property Name="YasayisYeri" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="ElaqeTelefonu" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="Email" Type="String" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="Cinsi" Type="String" MaxLength="3" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Student" Relationship="Registration.StudentsPrivateOfStudent" FromRole="PrivateOfStudent" ToRole="Students" />
+    <Property Name="Milliyeti" Type="String" Nullable="false" Unicode="true" MaxLength="30" FixedLength="false" />
+    <Property Name="Valideynler" Type="String" Nullable="false" Unicode="true" MaxLength="150" FixedLength="false" />
+    <Property Name="IsYeri" Type="String" Nullable="false" Unicode="true" MaxLength="60" FixedLength="false" />
+  </EntityType>
+  <Association Name="StudentsEducation">
+    <End Type="Registration.Students" Role="Students" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Registration.Education" Role="Education" Multiplicity="0..1" />
+  </Association>
+  <Association Name="StudentsPrivateOfStudent">
+    <End Type="Registration.Students" Role="Students" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Registration.PrivateOfStudent" Role="PrivateOfStudent" Multiplicity="0..1" />
+  </Association>
+  <EntityType Name="Pictures">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Sekil" Type="Binary" Nullable="false" MaxLength="Max" FixedLength="false" />
+    <NavigationProperty Name="Student" Relationship="Registration.StudentsPictures" FromRole="Pictures" ToRole="Students" />
+  </EntityType>
+  <Association Name="StudentsPictures">
+    <End Type="Registration.Students" Role="Students" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Registration.Pictures" Role="Pictures" Multiplicity="0..1" />
+  </Association>
+  <EntityType Name="UserNamePassword">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" Nullable="false" MaxLength="250" Unicode="true" FixedLength="false" />
+    <Property Name="Password" Type="String" Nullable="false" MaxLength="250" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="PunismentPresents">
+    <Key>
+      <PropertyRef Name="MukafatCezaID" />
+    </Key>
+    <Property Name="MukafatCezaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MukafatCeza" Type="String" Nullable="false" Unicode="true" FixedLength="false" MaxLength="3" />
+    <NavigationProperty Name="Student" Relationship="Registration.StudentsPunismentPresents" FromRole="PunismentPresents" ToRole="Students" />
+    <Property Name="Sebebi" Type="String" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Name="Tarixi" Type="DateTime" Nullable="false" Precision="3" />
+  </EntityType>
+  <EntityType Name="ExclusionRestoration">
+    <Key>
+      <PropertyRef Name="XaricBerpaID" />
+    </Key>
+    <Property Name="XaricBerpaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="XaricetmeBerpaetme" Type="String" Nullable="false" MaxLength="3" Unicode="true" FixedLength="false" />
+    <Property Name="Sebeb" Type="String" Nullable="false" MaxLength="200" Unicode="true" FixedLength="false" />
+    <Property Name="Tarix" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="Emr" Type="String" Nullable="false" MaxLength="100" Unicode="true" FixedLength="false" />
+    <NavigationProperty Name="Student" Relationship="Registration.StudentsExclusionRestoration" FromRole="ExclusionRestoration" ToRole="Students" />
+  </EntityType>
+  <EntityType Name="Transkript">
+    <Key>
+      <PropertyRef Name="TranskriptID" />
+    </Key>
+    <Property Name="TranskriptID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Fenn" Type="String" Nullable="false" Unicode="true" MaxLength="70" FixedLength="false" />
+    <Property Name="Semestr" Type="String" Nullable="false" MaxLength="3" Unicode="true" FixedLength="false" />
+    <Property Name="Kredit" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="Qiymet" Type="String" Nullable="false" MaxLength="2" Unicode="true" FixedLength="false" />
+    <Property Name="Bal" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Student" Relationship="Registration.StudentsTranskript" FromRole="Transkript" ToRole="Students" />
+  </EntityType>
+  <EntityType Name="BookNo">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IsNomresi" Type="String" Nullable="false" Unicode="true" MaxLength="15" FixedLength="false" />
+    <NavigationProperty Name="Student" Relationship="Registration.StudentsBookNo" FromRole="BookNo" ToRole="Students" />
+  </EntityType>
+  <Association Name="StudentsTranskript">
+    <End Type="Registration.Students" Role="Students" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Registration.Transkript" Role="Transkript" Multiplicity="*" />
+  </Association>
+  <Association Name="StudentsExclusionRestoration">
+    <End Type="Registration.Students" Role="Students" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Registration.ExclusionRestoration" Role="ExclusionRestoration" Multiplicity="*" />
+  </Association>
+  <Association Name="StudentsPunismentPresents">
+    <End Type="Registration.Students" Role="Students" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Registration.PunismentPresents" Role="PunismentPresents" Multiplicity="*" />
+  </Association>
+  <Association Name="StudentsBookNo">
+    <End Type="Registration.Students" Role="Students" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="Registration.BookNo" Role="BookNo" Multiplicity="0..1" />
+  </Association>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+  <EntityType Name="Teachers">
+    <Key>
+      <PropertyRef Name="TeacherID" />
+    </Key>
+    <Property Name="TeacherID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" Nullable="false" />
+    <Property Name="Password" Type="String" Nullable="false" />
+  </EntityType>
+</Schema>

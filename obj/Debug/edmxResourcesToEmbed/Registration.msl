@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RegistrationStoreContainer" CdmEntityContainer="RegistrationContainer1">
+    <EntitySetMapping Name="Students">
+      <EntityTypeMapping TypeName="IsTypeOf(Registration.Students)">
+        <MappingFragment StoreEntitySet="Students">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Soyad" ColumnName="Soyad" />
+          <ScalarProperty Name="Ad" ColumnName="Ad" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Education">
+      <EntityTypeMapping TypeName="IsTypeOf(Registration.Education)">
+        <MappingFragment StoreEntitySet="Education">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Tehsili" ColumnName="Tehsili" />
+          <ScalarProperty Name="Fakulte" ColumnName="Fakulte" />
+          <ScalarProperty Name="Ixtisas" ColumnName="Ixtisas" />
+          <ScalarProperty Name="QebulTarixi" ColumnName="QebulTarixi" />
+          <ScalarProperty Name="Bal" ColumnName="Bal" />
+          <ScalarProperty Name="QrupNo" ColumnName="QrupNo" />
+          <ScalarProperty Name="QebulEmri" ColumnName="QebulEmri" />
+          <ScalarProperty Name="BitirmeTarixi" ColumnName="BitirmeTarixi" />
+          <ScalarProperty Name="ArayisEmri" ColumnName="ArayisEmri" />
+          <ScalarProperty Name="TehsilPillesi" ColumnName="TehsilPillesi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PrivateOfStudent">
+      <EntityTypeMapping TypeName="IsTypeOf(Registration.PrivateOfStudent)">
+        <MappingFragment StoreEntitySet="PrivateOfStudent">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="AtaAdi" ColumnName="AtaAdi" />
+          <ScalarProperty Name="DogumTarixi" ColumnName="DogumTarixi" />
+          <ScalarProperty Name="YasayisYeri" ColumnName="YasayisYeri" />
+          <ScalarProperty Name="ElaqeTelefonu" ColumnName="ElaqeTelefonu" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Cinsi" ColumnName="Cinsi" />
+          <ScalarProperty Name="Milliyeti" ColumnName="Milliyeti" />
+          <ScalarProperty Name="Valideynler" ColumnName="Valideynler" />
+          <ScalarProperty Name="IsYeri" ColumnName="IsYeri" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Pictures">
+      <EntityTypeMapping TypeName="IsTypeOf(Registration.Pictures)">
+        <MappingFragment StoreEntitySet="Pictures">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Sekil" ColumnName="Sekil" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserNamePassword">
+      <EntityTypeMapping TypeName="IsTypeOf(Registration.UserNamePassword)">
+        <MappingFragment StoreEntitySet="UserNamePassword">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PunismentPresents">
+      <EntityTypeMapping TypeName="IsTypeOf(Registration.PunismentPresents)">
+        <MappingFragment StoreEntitySet="PunismentPresents">
+          <ScalarProperty Name="MukafatCezaID" ColumnName="MukafatCezaID" />
+          <ScalarProperty Name="MukafatCeza" ColumnName="MukafatCeza" />
+          <ScalarProperty Name="Sebebi" ColumnName="Sebebi" />
+          <ScalarProperty Name="Tarixi" ColumnName="Tarixi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ExclusionRestoration">
+      <EntityTypeMapping TypeName="IsTypeOf(Registration.ExclusionRestoration)">
+        <MappingFragment StoreEntitySet="ExclusionRestoration">
+          <ScalarProperty Name="XaricBerpaID" ColumnName="XaricBerpaID" />
+          <ScalarProperty Name="XaricetmeBerpaetme" ColumnName="XaricetmeBerpaetme" />
+          <ScalarProperty Name="Sebeb" ColumnName="Sebeb" />
+          <ScalarProperty Name="Tarix" ColumnName="Tarix" />
+          <ScalarProperty Name="Emr" ColumnName="Emr" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Transkript">
+      <EntityTypeMapping TypeName="IsTypeOf(Registration.Transkript)">
+        <MappingFragment StoreEntitySet="Transkript">
+          <ScalarProperty Name="TranskriptID" ColumnName="TranskriptID" />
+          <ScalarProperty Name="Fenn" ColumnName="Fenn" />
+          <ScalarProperty Name="Semestr" ColumnName="Semestr" />
+          <ScalarProperty Name="Kredit" ColumnName="Kredit" />
+          <ScalarProperty Name="Qiymet" ColumnName="Qiymet" />
+          <ScalarProperty Name="Bal" ColumnName="Bal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="BookNo">
+      <EntityTypeMapping TypeName="IsTypeOf(Registration.BookNo)">
+        <MappingFragment StoreEntitySet="BookNo">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="IsNomresi" ColumnName="IsNomresi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Teachers">
+      <EntityTypeMapping TypeName="IsTypeOf(Registration.Teachers)">
+        <MappingFragment StoreEntitySet="Teachers">
+          <ScalarProperty Name="TeacherID" ColumnName="TeacherID" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="StudentsEducation" TypeName="Registration.StudentsEducation" StoreEntitySet="Education">
+      <EndProperty Name="Students">
+        <ScalarProperty Name="ID" ColumnName="Student_ID" />
+      </EndProperty>
+      <EndProperty Name="Education">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="StudentsPrivateOfStudent" TypeName="Registration.StudentsPrivateOfStudent" StoreEntitySet="PrivateOfStudent">
+      <EndProperty Name="Students">
+        <ScalarProperty Name="ID" ColumnName="Student_ID" />
+      </EndProperty>
+      <EndProperty Name="PrivateOfStudent">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="StudentsPictures" TypeName="Registration.StudentsPictures" StoreEntitySet="Pictures">
+      <EndProperty Name="Students">
+        <ScalarProperty Name="ID" ColumnName="Student_ID" />
+      </EndProperty>
+      <EndProperty Name="Pictures">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="StudentsTranskript" TypeName="Registration.StudentsTranskript" StoreEntitySet="Transkript">
+      <EndProperty Name="Students">
+        <ScalarProperty Name="ID" ColumnName="Student_ID" />
+      </EndProperty>
+      <EndProperty Name="Transkript">
+        <ScalarProperty Name="TranskriptID" ColumnName="TranskriptID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="StudentsExclusionRestoration" TypeName="Registration.StudentsExclusionRestoration" StoreEntitySet="ExclusionRestoration">
+      <EndProperty Name="Students">
+        <ScalarProperty Name="ID" ColumnName="Student_ID" />
+      </EndProperty>
+      <EndProperty Name="ExclusionRestoration">
+        <ScalarProperty Name="XaricBerpaID" ColumnName="XaricBerpaID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="StudentsPunismentPresents" TypeName="Registration.StudentsPunismentPresents" StoreEntitySet="PunismentPresents">
+      <EndProperty Name="Students">
+        <ScalarProperty Name="ID" ColumnName="Student_ID" />
+      </EndProperty>
+      <EndProperty Name="PunismentPresents">
+        <ScalarProperty Name="MukafatCezaID" ColumnName="MukafatCezaID" />
+      </EndProperty>
+    </AssociationSetMapping>
+    <AssociationSetMapping Name="StudentsBookNo" TypeName="Registration.StudentsBookNo" StoreEntitySet="BookNo">
+      <EndProperty Name="Students">
+        <ScalarProperty Name="ID" ColumnName="Student_ID" />
+      </EndProperty>
+      <EndProperty Name="BookNo">
+        <ScalarProperty Name="ID" ColumnName="ID" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>
